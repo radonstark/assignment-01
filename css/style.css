@@ -1,17 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Nunito:wght@300&family=Otomanopee+One&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 /*
+font-family: 'Yeseva One', cursive;
 font-family: 'Encode Sans SC', sans-serif;
 font-family: 'Nunito', sans-serif;
 font-family: 'Otomanopee One', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+.var {
+  border-left: 4px solid;
+  border-image: linear-gradient(to bottom, #e9b34f, #ee6b54) 1;
+}
+
 * {
   margin: 0 0;
   padding: 0 0;
 }
-
 h3.exp22 {
+  font-family: "Yeseva One", cursive;
+}
+
+.exp22 {
   color: white;
   text-align: center;
 }
@@ -32,7 +42,9 @@ span.exp-11 {
 }
 
 h1.sec-0 {
+  padding-left: 10px;
   color: rgb(255, 109, 88);
+  font-family: "Yeseva One", cursive;
 }
 
 h1.exp-0 {
@@ -237,7 +249,7 @@ p {
   box-shadow: 0 0 20px 0 black;
   border-radius: 5%;
   transform: translateY(-50px);
-  background-image: radial-gradient(rgb(47, 120, 230), rgb(15, 235, 132));
+  background-image: radial-gradient(rgb(7, 128, 150), rgb(8, 181, 194));
   /* transition-property: transform;
     transition-duration: 5s; */
 }
