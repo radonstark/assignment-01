@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Nunito:wght@300&family=Otomanopee+One&family=Roboto:wght@100&display=swap");
+/*
+font-family: 'Encode Sans SC', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Otomanopee One', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+h3.exp22 {
+  color: white;
+  text-align: center;
+}
+
+p.exp22 {
+  color: white;
+  text-align: center;
+}
+
+body {
+  color: dimgrey;
+  background-color: rgb(73, 172, 172);
+  line-height: 1 !important;
+}
+
+span.exp-11 {
+  color: rgb(255, 109, 88);
+}
+
+h1.sec-0 {
+  color: rgb(255, 109, 88);
+}
+
+h1.exp-0 {
+  /* font-family: 'Encode Sans SC', sans-serif; */
+  text-align: center;
+}
+
+h2 {
+  /* font-family: 'Nunito', sans-serif; */
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+.bg-clr {
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 187, 102),
+    rgb(189, 93, 76)
+  );
+}
+
+.part-0 {
+  background-image: url("../images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.half {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.intro_bio {
+  padding: 40px 20px 0 0;
+  width: 50%;
+  margin: 90px 0 0 0;
+}
+
+.intro_bio a {
+  text-decoration: none;
+}
+
+.intro_bio a:hover {
+  font-style: normal;
+  cursor: pointer;
+  color: #057067;
+  font-style: italic;
+}
+
+.linkedin {
+  text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 179, 79),
+    rgb(238, 107, 84)
+  );
+  color: white;
+  padding: 10px 28px;
+  border-radius: 10px;
+}
+
+.linkedin:hover {
+  font-style: oblique;
+  color: black;
+}
+
+.intro_pic img {
+  margin-left: 20%;
+  width: 75%;
+}
+
+.intro_bio h1 {
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.intro_bio h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.hide-in {
+  display: none;
+}
+
+.intro_bio h2:hover + .hide-in {
+  display: block;
+  color: brown;
+}
+
+.intro_bio p {
+  color: dimgray;
+  text-align: justify;
+}
+
+.part-2 {
+  background-image: url("../images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  padding: 80px 0;
+}
+
+.part-25 {
+  background-image: url("../images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+  padding: 80px 0;
+}
+
+.second-intro-pic2 img {
+  margin-left: 25%;
+  width: 75%;
+}
+
+.second-intro-pic img {
+  margin-right: 20%;
+  width: 75%;
+}
+
+.second_intro {
+  padding: 40px 20px 0 0;
+  width: 50%;
+}
+
+.second_intro2 {
+  padding: 40px 20px 0 0;
+  width: 50%;
+}
+
+.part-3 {
+  background-image: url("../images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.part-3 blockquote {
+  text-align: justify;
+}
+
+.exp-0 {
+  padding: 60px 0;
+}
+
+.exp-1 {
+  width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 40px 65px;
+  box-shadow: 10px 10px 40px dimgray;
+  border-left: 10px solid rgb(238, 107, 84);
+  border-radius: 20px;
+}
+
+.exp-3 {
+  width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 40px 65px;
+  box-shadow: 10px 10px 40px dimgray;
+  border-left: 10px solid rgb(238, 107, 84);
+  border-radius: 20px;
+}
+
+.clr {
+  height: 100%;
+  width: 10px;
+  background-color: firebrick;
+}
+
+.exp-2 {
+  width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 40px 65px;
+  box-shadow: 10px 10px 40px dimgray;
+  border-left: 10px solid rgb(238, 107, 84);
+  border-radius: 20px;
+}
+
+.part-1 {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.first_h1 {
+  font-size: 60px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.card {
+  transform: translateY(0px);
+  transition: all 2s;
+  margin: 0 auto;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px 0 black;
+  border-radius: 5%;
+  transform: translateY(-50px);
+  background-image: radial-gradient(rgb(47, 120, 230), rgb(15, 235, 132));
+  /* transition-property: transform;
+    transition-duration: 5s; */
+}
+
+.cards-sec {
+  border-radius: 30px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+/* footer */
+
+footer {
+  height: 115px;
+  background-color: black;
+}
+
+.foot-note {
+  /* margin: 10px 0; */
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+.foot-1 {
+  padding: 20px 0;
+  font-size: medium;
+  font-weight: bolder;
+}
